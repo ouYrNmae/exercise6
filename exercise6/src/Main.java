@@ -1,4 +1,5 @@
 //Jocelin Martinez-Reyes | Exercise 6 | 2/23/25
+
 import java.util.*;
 
 public class Main {
@@ -17,8 +18,8 @@ public class Main {
             System.out.println("Double: " + userDouble);
             System.out.println("String: " + userString);
 
-            System.out.println("\Again ₊·*◟(˶╹̆ꇴ╹̆˵)◜‧*･? (Y/y for Yes, N/n for No)");
-            
+            System.out.println("\nAgain ₊·*◟(˶╹̆ꇴ╹̆˵)◜‧*･? (Y/y for Yes, N/n for No)");
+
             String answer = input.nextLine();
             if (answer.equalsIgnoreCase("N")) {
                 quit = 1;
@@ -42,13 +43,13 @@ public class Main {
 
             try {
                 userIn = Integer.parseInt(userInput);
-                isCaught = false; 
+                isCaught = false;
             } catch (NumberFormatException e) {
                 System.out.println("Error: Error: Try a correct number.(Literally any number)");
             }
         }
 
-        return userIn; 
+        return userIn;
     }
 
     static double ansDbl(String message) {
@@ -61,13 +62,13 @@ public class Main {
 
             try {
                 userIn = Double.parseDouble(userInput);
-                isCaught = false; 
+                isCaught = false;
             } catch (NumberFormatException e) {
                 System.out.println("Error: Try a correct number. (A decimal 0.00 [the period])");
             }
         }
 
-        return userIn; 
+        return userIn;
     }
 
     static String ansStr(String message) {
@@ -86,3 +87,4 @@ public class Main {
         }
         return userInput;
     }
+}
