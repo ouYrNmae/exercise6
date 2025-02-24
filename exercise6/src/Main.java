@@ -26,7 +26,7 @@ public class Main {
             } else if (answer.equalsIgnoreCase("Y")) {
                 System.out.println("\nGreat! Let's try again ‎٩(⸝⸝ᵕᴗᵕ⸝⸝)و*̣̩⋆̩*.\n");
             } else {
-                System.out.println("\nThat wasn't a choice in this ୧(๑•̀ᗝ•́)૭/n Exiting...\n");
+                System.out.println("\nThat wasn't a choice in this ୧(๑•̀ᗝ•́)૭/n Soooo not coool, see-yah ig...\n");
                 quit = 1;
             }
         }
