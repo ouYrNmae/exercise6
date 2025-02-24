@@ -14,7 +14,7 @@ public class Main {
             String userString = ansStr("Please input a string (text) ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧:");
 
             System.out.println("Integer: " + userInt);
-            System.out.println(Double: " + userDouble);
+            System.out.println("Double: " + userDouble);
             System.out.println("String: " + userString);
 
             System.out.println("\Again ₊·*◟(˶╹̆ꇴ╹̆˵)◜‧*･? (Y/y for Yes, N/n for No)");
